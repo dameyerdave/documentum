@@ -1,0 +1,9 @@
+# :set ts=2 sw=2 sts=2 et
+components:
+  localsplunk:
+    module: "splunk"
+    proto: "https"
+    host: "127.0.0.1"
+    port: 8089
+    username: "admin"
+    password: "5plunk>%Txy"
