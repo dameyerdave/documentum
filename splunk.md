@@ -11,8 +11,8 @@
 ## Indexes
 {"localsplunk": { "content": "indexes" }}
 
-## Indexes
-{"localsplunk": { "search": "| eventcount summarize=f | table index, count" }}
+## Events per index
+{"localsplunk": { "search": "| eventcount summarize=f | table server, index, count" }}
 
 ## Apps
 {"localsplunk": { "content": "apps" }}
