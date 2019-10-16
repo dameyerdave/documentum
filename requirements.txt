@@ -1,0 +1,5 @@
+pyyaml
+urllib3
+chardet2
+certifi
+idna
