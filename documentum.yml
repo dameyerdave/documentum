@@ -4,6 +4,6 @@ components:
     module: "splunk"
     proto: "https"
     host: "127.0.0.1"
-    port: 32778
+    port: 8089
     username: "admin"
     password: "splunk01"

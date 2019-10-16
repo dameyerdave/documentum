@@ -2,6 +2,8 @@
 import sys, os
 sys.path.append(os.path.dirname(__file__) + '/lib')
 
+print(sys.path)
+
 import yaml, json
 from splunk import Splunk
 
